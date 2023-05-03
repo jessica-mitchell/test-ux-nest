@@ -37,13 +37,10 @@ extensions = [
 ]
 
 
-hoverxref_project = 'nest_design'
-hoverxref_version = '1'
-hoverxref_default_type = "modal"
 hoverxref_auto_ref = True
 hoverxref_role_types = {
     "hoverxref": "modal",
-    "ref": "modal"
+    "ref": "tooltip"
 }
 #'confval': 'tooltip',  # for custom object
 #'mod': 'tooltip',  # for Python Sphinx Domain
@@ -88,7 +85,7 @@ html_theme_options = {
     #     {"href": "index", "internal": True, "title": "NEST docs home"}
     #     ],
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 1,
+    'globaltoc_depth': 3,
     # If False, expand all TOC entries
     'globaltoc_collapse': True,
     # If True, show hidden TOC entries
