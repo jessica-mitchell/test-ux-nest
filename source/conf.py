@@ -33,6 +33,7 @@ release = '1'
 extensions = [
         'sphinx_design',
         'hoverxref.extension',
+        'sphinxcontrib.mermaid',
         'sphinx_copybutton'
 ]
 
@@ -45,7 +46,8 @@ hoverxref_role_types = {
 #'confval': 'tooltip',  # for custom object
 #'mod': 'tooltip',  # for Python Sphinx Domain
 #'class': 'tooltip',  # for Python Sphinx Domain
-
+mermaid_output_format = "raw"
+mermaid_version = ""
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -109,5 +111,6 @@ html_css_files = [
 ]
 html_js_files = [
     'js/custom.js',
-    'js/image-map.js'
+    'js/image-map.js',
+    'js/mermaid.js'
     ]
