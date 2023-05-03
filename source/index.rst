@@ -173,33 +173,6 @@ Here is an example of how a script is constructed . . .
 
 
 
-.. tab-set::
-
-   .. tab-item:: User-level
-      :sync: key1
-
-      Here is some information for users about somtihng
-      in nest
-
-   .. tab-item:: The technical details
-      :sync: key2
-
-      Here is some information for developers about the ihng
-      in nest
-
-.. tab-set::
-
-   .. tab-item:: User-level additional
-      :sync: key1
-
-      Here is some other information for users about somtihng
-      in nest
-
-   .. tab-item:: andmore technical details
-      :sync: key2
-
-      Here is some more information for developers about the ihng
-      in nest
 
 Install NEST
 ------------
@@ -264,7 +237,7 @@ Here are tools that integrate with NEST  . . .
    examples
    pynest_api
    models
-   glossary
+   subdir1/glossary
    contact
 
 .. toctree::
