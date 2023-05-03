@@ -8,11 +8,11 @@ CPP docs
    .. grid-item-card:: neurons
 
 
-       * :ref:`admon`
+       * :ref:`neuron`
 
-       * :ref:`exact`
+       * :ref:`exact-integration`
 
-       * :ref:`parameterization`
+       * :ref:`param`
 
 
 .. button-link:: https://example.com
