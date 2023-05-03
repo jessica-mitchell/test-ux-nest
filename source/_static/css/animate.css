@@ -1,0 +1,56 @@
+body {
+  background-color: aquamarine;
+}
+
+@keyframes Yo1 {
+  0% {
+    transform: translate(210px, 200px);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(250px, 200px);
+  }
+  100% {
+    transform: translate(210px, 200px);
+    opacity: 1;
+  }
+}
+
+@keyframes Yo2 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(20deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+@keyframes Yo3 {
+  0% {
+    transform: scale(1) translate(0, 0);
+    transition: transform 1s ease;
+  }
+  50% {
+    transform: scale(0.5) translate(260px, 260px);
+  }
+  100 {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+#Group {
+  transform: translate(210px, 200px);
+  animation: Yo1 5s 2s linear 5;
+}
+
+ellipse#Oval {
+  animation: Yo2 2s linear infinite;
+}
+
+ellipse#Oval-5 {
+  animation: Yo3 3s 2s linear infinite;
+}
+

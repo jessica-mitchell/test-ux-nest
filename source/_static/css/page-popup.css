@@ -1,0 +1,14 @@
+.box{
+    display: none;
+    width: 100%;
+}
+
+.sd-streched-link {
+    display: none;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}

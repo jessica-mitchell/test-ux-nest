@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 415.99371 332.85419"
+   version="1.1"
+   sodipodi:docname="nest conn overview.svg"
+   width="415.99371"
+   height="332.85419"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview171"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.1706908"
+     inkscape:cx="431.36924"
+     inkscape:cy="166.56832"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="415.99371"
+       height="332.85419"
+       id="page713" />
+    <inkscape:page
+       x="464.6829"
+       y="-6.8335722"
+       width="578.29104"
+       height="349.36638"
+       id="page715" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <style
+       id="style2">
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: BebasNeue-Regular, 'Bebas Neue';
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-3 {
+        font-family: Gadugi, Gadugi;
+      }
+
+      .cls-5, .cls-6, .cls-8 {
+        font-size: 22px;
+      }
+
+      .cls-9 {
+        fill: #4c4c4c;
+      }
+
+      .cls-10 {
+        fill: #151259;
+      }
+
+      .cls-11 {
+        fill: #a1ccc7;
+      }
+
+      .cls-12 {
+        fill: #00002b;
+      }
+
+      .cls-13 {
+        fill: #585859;
+      }
+
+      .cls-14 {
+        font-family: NexaRegular, NexaRegular;
+        font-size: 19px;
+      }
+
+      .cls-15 {
+        fill: #b2b2b2;
+      }
+
+      .cls-16 {
+        fill: #f63;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #fcfafb;
+      }
+
+      .cls-18 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-19 {
+        font-family: Nexa-Light, Nexa-Light;
+        font-size: 11px;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        fill: #fcfcfc;
+        font-size: 23px;
+      }
+
+      .cls-20 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-21 {
+        fill: #2c4d0f;
+      }
+
+      .cls-22 {
+        fill: #414141;
+      }
+
+      .cls-23 {
+        fill: #732004;
+      }
+
+      .cls-8 {
+        font-family: Gadugi-Bold, Gadugi;
+        font-weight: 700;
+      }
+
+      .cls-24 {
+        fill: #636363;
+      }
+
+      .cls-25 {
+        fill: #999;
+      }
+
+      .cls-26 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-27 {
+        letter-spacing: 0em;
+      }
+
+      .cls-28 {
+        fill: #bfba1d;
+      }
+
+      .cls-29 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        fill: #f9f9f9;
+      }
+
+      .cls-30 {
+        fill: #a4573e;
+      }
+
+      .cls-31 {
+        stroke: #0d3f36;
+        stroke-width: 6px;
+      }
+
+      .cls-31, .cls-32 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-32 {
+        stroke: #4c4c4c;
+        stroke-dasharray: 0 0 10 5;
+        stroke-width: 3px;
+      }
+
+      .cls-33 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-34 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-35 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <rect
+     class="cls-15"
+     y="192.7442"
+     width="117.78"
+     height="131.86"
+     rx="12"
+     ry="12"
+     id="rect6"
+     x="0" />
+  <rect
+     class="cls-31"
+     x="472.89001"
+     y="3.8541965"
+     width="550"
+     height="326"
+     rx="12"
+     ry="12"
+     id="rect8" />
+  <rect
+     class="cls-25"
+     x="272.22"
+     y="15.854197"
+     width="117.78"
+     height="308.75"
+     rx="12"
+     ry="12"
+     id="rect10" />
+  <rect
+     class="cls-21"
+     x="135.19"
+     y="135.1842"
+     width="87"
+     height="41"
+     id="rect12" />
+  <text
+     class="cls-5"
+     id="text16"
+     x="151.57001"
+     y="161.28419"><tspan
+       x="151.57001"
+       y="161.28419"
+       id="tspan14">PyNN</tspan></text>
+  <polygon
+     class="cls-10"
+     points="312.55,187.47 293.71,154.83 312.55,122.2 350.23,122.2 369.07,154.83 350.23,187.47 "
+     id="polygon18"
+     transform="translate(0,0.85419652)" />
+  <rect
+     class="cls-16"
+     x="15.41"
+     y="47.314194"
+     width="87"
+     height="41"
+     rx="12"
+     ry="12"
+     id="rect20" />
+  <rect
+     class="cls-16"
+     x="135.19"
+     y="47.314194"
+     width="87"
+     height="41"
+     rx="12"
+     ry="12"
+     id="rect22" />
+  <text
+     class="cls-6"
+     id="text26"
+     x="18.799999"
+     y="74.804199"><tspan
+       x="18.799999"
+       y="74.804199"
+       id="tspan24">NESTML</tspan></text>
+  <text
+     class="cls-5"
+     id="text30"
+     x="312.41"
+     y="161.28419"><tspan
+       x="312.41"
+       y="161.28419"
+       id="tspan28">TVB</tspan></text>
+  <polygon
+     class="cls-12"
+     points="312.55,292.64 293.71,260.01 312.55,227.37 350.23,227.37 369.07,260.01 350.23,292.64 "
+     id="polygon32"
+     transform="translate(0,0.85419652)" />
+  <text
+     class="cls-5"
+     id="text36"
+     x="324.23001"
+     y="263.01419"><tspan
+       x="324.23001"
+       y="263.01419"
+       id="tspan34">...</tspan></text>
+  <rect
+     class="cls-16"
+     x="287.89001"
+     y="47.314194"
+     width="87"
+     height="41"
+     rx="12"
+     ry="12"
+     id="rect38" />
+  <text
+     class="cls-3"
+     id="text44"
+     x="298.89999"
+     y="62.704197"><tspan
+       x="298.89999"
+       y="62.704197"
+       id="tspan40">NEST</tspan><tspan
+       x="298.89999"
+       y="84.304199"
+       id="tspan42">Desktop</tspan></text>
+  <polygon
+     class="cls-28"
+     points="557.64,7.79 635.39,108.45 479.89,108.45 "
+     id="polygon46"
+     transform="translate(0,0.85419652)" />
+  <rect
+     class="cls-11"
+     x="446.01569"
+     y="818.29755"
+     width="76.300003"
+     height="76.300003"
+     transform="rotate(-45)"
+     id="rect48" />
+  <circle
+     class="cls-30"
+     cx="677.46002"
+     cy="129.8542"
+     r="43.240002"
+     id="circle50" />
+  <text
+     class="cls-8"
+     id="text54"
+     x="640.85999"
+     y="136.4942"><tspan
+       x="640.85999"
+       y="136.4942"
+       id="tspan52">neuron</tspan></text>
+  <rect
+     class="cls-23"
+     x="15.41"
+     y="242.51421"
+     width="87"
+     height="41"
+     id="rect56" />
+  <text
+     class="cls-5"
+     id="text60"
+     x="15.74"
+     y="268.72418"><tspan
+       x="15.74"
+       y="268.72418"
+       id="tspan58">Elephant</tspan></text>
+  <text
+     class="cls-7"
+     id="text64"
+     x="150.96001"
+     y="75.804199"><tspan
+       x="150.96001"
+       y="75.804199"
+       id="tspan62">NEST</tspan></text>
+  <text
+     class="cls-2"
+     id="text68"
+     x="34.110001"
+     y="212.29419"><tspan
+       x="34.110001"
+       y="212.29419"
+       id="tspan66">Group 2</tspan></text>
+  <text
+     class="cls-2"
+     id="text72"
+     x="306.94"
+     y="32.634197"><tspan
+       x="306.94"
+       y="32.634197"
+       id="tspan70">Group 1</tspan></text>
+  <polygon
+     class="cls-22"
+     points="119.22,76.73 106.89,66.96 119.22,57.18 117.73,63.78 131.22,63.78 131.22,70.13 117.73,70.13 "
+     id="polygon74"
+     transform="translate(0,0.85419652)" />
+  <polygon
+     class="cls-13"
+     points="183.58,117.42 178.69,129 173.81,117.42 177.11,118.82 177.11,92.33 180.28,92.33 180.28,118.82 "
+     id="polygon76"
+     transform="translate(0,0.85419652)" />
+  <polygon
+     class="cls-13"
+     points="268.64,62.07 280.22,66.96 268.64,71.84 270.04,68.54 226.22,68.54 226.22,65.37 270.04,65.37 "
+     id="polygon78"
+     transform="translate(0,0.85419652)" />
+  <polygon
+     class="cls-13"
+     points="294.38,123.23 300.27,134.33 288.21,130.8 291.38,129.13 225.22,75.18 227.23,72.72 293.38,126.67 "
+     id="polygon80"
+     transform="translate(0,0.85419652)" />
+  <polygon
+     class="cls-13"
+     points="297.96,226.11 297.56,238.67 288.84,229.61 292.42,229.74 236.39,84.02 239.35,82.88 295.39,228.6 "
+     id="polygon82"
+     transform="translate(0,0.85419652)" />
+  <polygon
+     class="cls-13"
+     points="71.02,183.85 58.91,187.21 64.95,176.19 65.91,179.64 177.71,91.09 179.68,93.58 67.88,182.13 "
+     id="polygon84"
+     transform="translate(0,0.85419652)" />
+  <text
+     class="cls-19"
+     id="text102"
+     x="222.42"
+     y="60.854195"><tspan
+       x="222.42"
+       y="60.854195"
+       id="tspan86">N</tspan><tspan
+       class="cls-26"
+       x="230.62"
+       y="60.854195"
+       id="tspan88">E</tspan><tspan
+       x="237.62"
+       y="60.854195"
+       id="tspan90">S</tspan><tspan
+       class="cls-29"
+       x="244.85001"
+       y="60.854195"
+       id="tspan92">T</tspan><tspan
+       x="251.00999"
+       y="60.854195"
+       xml:space="preserve"
+       id="tspan94"> ser</tspan><tspan
+       class="cls-35"
+       x="270.32001"
+       y="60.854195"
+       id="tspan96">v</tspan><tspan
+       x="276.01999"
+       y="60.854195"
+       id="tspan98">e</tspan><tspan
+       class="cls-33"
+       x="282.48001"
+       y="60.854195"
+       id="tspan100">r</tspan></text>
+  <text
+     class="cls-19"
+     transform="rotate(40.82)"
+     id="text108"
+     x="242.37625"
+     y="-97.260429"><tspan
+       class="cls-4"
+       x="242.37625"
+       y="-97.260429"
+       id="tspan104">C</tspan><tspan
+       x="250.04625"
+       y="-97.260429"
+       id="tspan106">OSIM</tspan></text>
+  <text
+     class="cls-19"
+     transform="rotate(64.7)"
+     id="text112"
+     x="263.51178"
+     y="-176.6721"><tspan
+       x="263.51178"
+       y="-176.6721"
+       id="tspan110">MUSIC</tspan></text>
+  <text
+     class="cls-8"
+     id="text116"
+     x="503.12"
+     y="91.434196"><tspan
+       x="503.12"
+       y="91.434196"
+       id="tspan114">stimulator</tspan></text>
+  <text
+     class="cls-8"
+     id="text120"
+     x="905.13"
+     y="268.6842"><tspan
+       x="905.13"
+       y="268.6842"
+       id="tspan118">recorder</tspan></text>
+  <circle
+     class="cls-30"
+     cx="850.77002"
+     cy="129.8542"
+     r="43.240002"
+     id="circle122" />
+  <circle
+     class="cls-30"
+     cx="677.46002"
+     cy="268.68417"
+     r="43.240002"
+     id="circle124" />
+  <text
+     class="cls-14"
+     id="text138"
+     x="508.23999"
+     y="209.1442"><tspan
+       x="508.23999"
+       y="209.1442"
+       id="tspan126">n</tspan><tspan
+       class="cls-17"
+       x="519.78998"
+       y="209.1442"
+       id="tspan128">e</tspan><tspan
+       class="cls-27"
+       x="530.84998"
+       y="209.1442"
+       id="tspan130">t</tspan><tspan
+       class="cls-20"
+       x="538.39001"
+       y="209.1442"
+       id="tspan132">w</tspan><tspan
+       x="554.01001"
+       y="209.1442"
+       id="tspan134">or</tspan><tspan
+       class="cls-18"
+       x="573.52002"
+       y="209.1442"
+       id="tspan136">k</tspan></text>
+  <text
+     class="cls-14"
+     id="text144"
+     x="781.29999"
+     y="212.4742"><tspan
+       class="cls-34"
+       x="781.29999"
+       y="212.4742"
+       id="tspan140">s</tspan><tspan
+       class="cls-1"
+       x="790.51001"
+       y="212.4742"
+       id="tspan142">ynapse</tspan></text>
+  <g
+     id="g154"
+     transform="translate(0,0.85419652)">
+    <line
+       class="cls-9"
+       x1="557.64001"
+       y1="115.67"
+       x2="631.56"
+       y2="129"
+       id="line146" />
+    <g
+       id="g152">
+      <line
+         class="cls-32"
+         x1="557.64001"
+         y1="115.67"
+         x2="628.17999"
+         y2="128.39"
+         id="line148" />
+      <polygon
+         class="cls-9"
+         points="623.2,122.33 627.45,123.09 631.56,129 625.65,133.1 621.4,132.34 627.31,128.23 "
+         id="polygon150" />
+    </g>
+  </g>
+  <polygon
+     class="cls-24"
+     points="778.4,119.23 801.56,129 778.4,138.77 781.2,132.17 728.89,132.17 728.89,125.83 781.2,125.83 "
+     id="polygon156"
+     transform="translate(0,0.85419652)" />
+  <polygon
+     class="cls-24"
+     points="745.68,230.69 721.04,235.67 734.66,214.54 736.07,221.57 816.43,166.75 820.01,172 739.64,226.82 "
+     id="polygon158"
+     transform="translate(0,0.85419652)" />
+  <g
+     id="g168"
+     transform="translate(0,0.85419652)">
+    <line
+       class="cls-9"
+       x1="724.89001"
+       y1="262.39001"
+       x2="882.21997"
+       y2="262.39001"
+       id="line160" />
+    <g
+       id="g166">
+      <line
+         class="cls-32"
+         x1="724.89001"
+         y1="262.39001"
+         x2="878.78998"
+         y2="262.39001"
+         id="line162" />
+      <polygon
+         class="cls-9"
+         points="872.82,257.31 877.14,257.31 882.22,262.39 877.14,267.48 872.82,267.48 877.91,262.39 "
+         id="polygon164" />
+    </g>
+  </g>
+</svg>
