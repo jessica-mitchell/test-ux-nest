@@ -12,7 +12,7 @@ CPP docs
 
        * :ref:`exact`
 
-       * :ref:`paramerterization`
+       * :ref:`parameterization`
 
 
 .. button-link:: https://example.com
