@@ -170,10 +170,6 @@ Here is an example of how a script is constructed . . .
 
 
 
-
-
-
-
 Install NEST
 ------------
 
@@ -231,12 +227,14 @@ Here are tools that integrate with NEST  . . .
 .. toctree::
    :caption: USAGE
    :hidden:
+   :glob:
 
    install
    tutorials
    examples
    pynest_api
    models
+   neurons/*
    subdir1/glossary
    contact
 

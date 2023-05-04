@@ -47,7 +47,7 @@ hoverxref_role_types = {
 #'mod': 'tooltip',  # for Python Sphinx Domain
 #'class': 'tooltip',  # for Python Sphinx Domain
 mermaid_output_format = "raw"
-mermaid_version = ""
+mermaid_version = "10.1.0"
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -87,9 +87,9 @@ html_theme_options = {
     #     {"href": "index", "internal": True, "title": "NEST docs home"}
     #     ],
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 3,
+    'globaltoc_depth': 2,
     # If False, expand all TOC entries
-    'globaltoc_collapse': True,
+    #'globaltoc_collapse': True,
     # If True, show hidden TOC entries
     'globaltoc_includehidden': True,
     }
@@ -112,5 +112,5 @@ html_css_files = [
 html_js_files = [
     'js/custom.js',
     'js/image-map.js',
-    'js/mermaid.js'
+    #'js/mermaid.js'
     ]
