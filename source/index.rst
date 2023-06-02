@@ -6,46 +6,86 @@
 Welcome to design_nest's documentation!
 =======================================
 
-.. note::
 
-   This is the testing ground for the documentation website design for NEST
-   This focuses on the layout, colour scheme,
-   UI elements, etc to optimize the user experience.
+.. grid::
 
-   The exact correct content is not the main concern. Where the content should go
-   and how it should look is the important part.
+  .. grid-item::
+
+    NEST is used in computational neuroscience to model and study behavior of large networks of neurons.
+    The models describe single neuron and synapse behavior and their connections.
+    Different mechanisms of plasticity can be used to investigate artificial learning
+    and help to shed light on the fundamental principles of how the brain works.
+
+    NEST offers convenient and efficient commands to define and connect large networks,
+    ranging from algorithmically determined connections to data-driven connectivity.
+    Create connections between neurons using numerous synapse models from STDP to gap junctions.
+
+    Community-Driven
+
+  .. grid-item-card::
+
+      .. carousel::
+          :show_controls:
+          :data-bs-ride: carousel
+
+            .. figure:: _static/img/pong_sim.gif
+
+              PLAY PONG with NEST
 
 
-.. grid:: 1 1 2 2
-   :gutter: 2
+            .. figure:: _static/img/sudoku_solution.gif
 
-   .. grid-item-card::
-     :columns: 6
+              OR SUDOKU
 
-     NEST is a simulator for spiking neural networks.
-     YOu can do X and Y and why with NEST.
+            .. figure:: _static/img/spatial_test3d.png
+              :target: architecture.html
 
-     Main Features:
+              Create 3D spatially structured networks
 
-     1.
 
-     2.
+            .. figure:: _static/img/structuralplasticity.png
 
-     3.
+              Title and Description
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+
+
+.. grid:: 1 2 3 3
 
    .. grid-item-card:: Install NEST
-     :columns: auto
-     :class-item: sd-fs-5 sd-text-center
+     :class-item: sd-text-center sd-text-white sd-bg-primary
 
 
      .. code-block:: python
 
          pip install nest-simulator
 
+     See more installation options here.
+
+   .. grid-item-card:: Learn NEST
+     :class-item: sd-text-center sd-text-white sd-bg-success
+
+
+     Our PyNEST tutorial will show you how to create your
+     first script and understand the basic functionality
+     of the NEST simulator. :ref:`tutorial-link <pynest_examples>`
+
+   .. grid-item-card:: Explore our models
+     :class-item: sd-text-center sd-text-white sd-bg-info
+
+     NEST has extensive model catalog from . . .
+     :ref:`Check out our model catalog <modelsmain>`
+
 Conceptual approach
 -------------------
 
 NEST builds networks from point based neurons using connections defined by synapse type ...
+..           <script src=
+          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+          </script>
+
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 .. grid:: 1 1 1 1
 
@@ -54,19 +94,15 @@ NEST builds networks from point based neurons using connections defined by synap
 
       .. raw:: html
 
-
-          <script src=
-          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-          </script>
-
+          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
           <div class="container1">
-          <img id="idimg" src="_static/img/network-brain3.svg" usemap="#image-map">
+          <img id="idimg" src="_static/img/network-brain3.svg" class="map" usemap="#image-map">
+
 
           <map name="image-map" class="popup">
              <span class="popuptext" id="myPopup">
              <a href="neurons.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
-             </a></span>
-
+             </a
              <area alt="neuron-triangle" title="neuron-triangle" coords="351,146,291,93" shape="rect" onclick=
              "myFunction()">
              <area target="_blank" alt="neuron-circle" title="neuron-circle" href="index.html" coords="453,311,30" shape="circle">
