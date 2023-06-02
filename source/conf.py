@@ -34,6 +34,7 @@ extensions = [
         'sphinx_design',
         'hoverxref.extension',
         'sphinxcontrib.mermaid',
+        "sphinx_carousel.carousel",
         'sphinx_copybutton'
 ]
 
@@ -43,11 +44,14 @@ hoverxref_role_types = {
     "hoverxref": "modal",
     "ref": "tooltip"
 }
+
+carousel_show_captions_below = True
+carousel_show_controls = True
 #'confval': 'tooltip',  # for custom object
 #'mod': 'tooltip',  # for Python Sphinx Domain
 #'class': 'tooltip',  # for Python Sphinx Domain
 mermaid_output_format = "raw"
-mermaid_version = "10.1.0"
+mermaid_version = "9.4.0"
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
