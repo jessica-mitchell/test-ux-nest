@@ -1,10 +1,38 @@
-.container1 {
- position: relative;
- display:flex;
- justify-content:center;
+
+/* chat gpt */
+
+
+
+
+.popuptext {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 200px;
+  right: 0%;
+  bottom: 50%;
+  margin-right: 10px;
 }
 
-/* Popup container */
+.map {
+  position: relative;
+}
+
+.map:hover .popuptext {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+.map:hover #idimg {
+  opacity: 0.7;
+}
+
+
 .popup {
   cursor: pointer;
   display: flex;
@@ -12,26 +40,7 @@
   justify-content: center;
 }
 
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 200px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 600px;
-  right: 0
-}
 
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -42,4 +51,40 @@
   to {opacity:1 ;}
 }
 
+
+/* The actual popup (appears on top) */
+/*
+.popup .popuptext {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 600px;
+  right: 0
+}
+*/
+}
+/*.container1 {
+ position: relative;
+ display:flex;
+ justify-content:center;
+}
+*/
+
+
+/*
+.popup .show {
+  visibility: visible;
+}
+*/
+
+/* end chatgpt */
+
+/*
+/* Popup container */
+
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+/* Add animation (fade in the popup) */
 
