@@ -107,6 +107,10 @@ We can also produce pop ups.
 
 But it is very difficult to produce an effect on hover over a specific item in the image map.
 
+The design of this brain is taken directly from NEST desktop, the neuron and synapse
+popups are taken from nestml, this gives us some consistency between projects. 
+The colours are meant to fit the new colour theme. The brain background is from Angela.
+
 ..  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 
 .. grid:: 1 1 1 1
@@ -116,47 +120,40 @@ But it is very difficult to produce an effect on hover over a specific item in t
 
       .. raw:: html
 
-          <div class="container1">
-          <!-- background image -->
           <img id="idimg" src="_static/img/network-brain3.svg" class="map" usemap="#image-map">
 
-
           <map name="image-map" class="popup">
-             <span class="popuptext" id="myPopup">
-             <a href="neurons.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
-             </a>
-             <area alt="neuron-triangle" title="neuron-triangle" coords="351,146,291,93" shape="rect" onclick=
-             "myFunction()">
-             </span>
-             <span class="popuptext" id="myPopup">
-             <a href="neurons.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
-             </a>>
-             <area target="_blank" alt="neuron-circle" title="neuron-circle"  coords="453,311,30" shape="circle" onclick="myFunction()">
-             </span>
-             <span class="popuptext" id="myPopup">
-             <a href="devices.html"> <img src="_static/img/001-shuttle.svg" alt="stimulator graphic">
-             </a>
-             <area target="_blank" alt="stimulator-hexagon" title="stimulator-hexagon" coords="124,196,33" shape="circle" onclick="myFunction()">
-
-             </span>
-             <span class="popuptext" id="myPopup">
-             <a href="devices.html"> <img src="_static/img/layer4.png" alt="recorder graphic">
-             </a>>
-             <area target="_blank" alt="recorder-parallegram" title="recorder-parallegram"  coords="502,374,578,410" shape="rect" onclick="myFunction()">
-
-             </span>
-             <span class="popuptext" id="myPopup">
-             <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
-             </a>
-             <area target="_blank" alt="neuron-square" title="neuron-square" coords="213,266,265,314" shape="rect" onclick="myFunction()">
-
-             </span>
-             <span class="popuptext" id="myPopup">
-             <a href="synapses_nest.html"> <img src="_static/img/synapse_illustration.svg" alt="synapse graphic">
-             </a>
-             <area alt="synapse-arrow" title="synapse-arrow" coords="361,141,328,154,363,229,417,293,442,275" shape="poly" onclick="myFunction()">
-             </span>
-            </map>
+          <area alt="neuron-triangle" title="neuron-triangle" coords="351,146,291,93" shape="rect" onclick="showPopup('popup1')">
+          <area alt="neuron-circle" title="neuron-circle"  coords="453,311,30" shape="circle" onclick="showPopup('popup2')">
+          <area alt="stimulator-hexagon" title="stimulator-hexagon" coords="124,196,33" shape="circle" onclick="showPopup('popup3')">
+          <area alt="recorder-parallegram" title="recorder-parallegram"  coords="502,374,578,410" shape="rect" onclick="showPopup('popup4')">
+          <area alt="neuron-square" title="neuron-square" coords="213,266,265,314" shape="rect" onclick="showPopup('popup5')">
+          <area alt="synapse-arrow" title="synapse-arrow" coords="361,141,328,154,363,229,417,293,442,275" shape="poly" onclick="showPopup('popup6')">
+          </map>
+           <!-- popups -->
+          <div class="popuptext" id="popup1">
+          <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron triangle graphic">
+          </a>
+          </div>
+          <div class="popuptext" id="popup2">
+          <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron circle graphic">
+          </a>
+          </div>
+          <div class="popuptext" id="popup3">
+          <a href="devices.html"> <img src="_static/img/001-shuttle.svg" alt="stimulator graphic">
+          </a>
+          </div>
+          <div class="popuptext" id="popup4">
+          <a href="devices.html"> <img src="_static/img/layer4.png" alt="recorder graphic">
+          </a>
+          </div>
+          <div class="popuptext" id="popup5">
+          <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron square graphic">
+          </a>
+          </div>
+          <div class="popuptext" id="popup6">
+          <a href="synapses_nest.html"> <img src="_static/img/synapse_illustration.svg" alt="synapse graphic">
+          </a>
           </div>
 
 Example script
@@ -304,7 +301,7 @@ NEST Ecosystem
 Here are tools that integrate with NEST  . . .
 
 .. image:: _static/img/nest_ecosystem.svg
-
+   :scale: 120%
 
 .. toctree::
    :caption: USAGE
@@ -316,6 +313,9 @@ Here are tools that integrate with NEST  . . .
    examples
    pynest_api
    models
+   neurons_nest
+   synapses_nest
+   devices_nest
    glossary
    contribute <contact>
 
