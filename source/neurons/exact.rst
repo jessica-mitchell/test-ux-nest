@@ -4,6 +4,6 @@ exact-integration
 
 
 
-.. admonition:: 
+.. admonition:: Lookout!
 
-   Some text
+  Radioactive man!

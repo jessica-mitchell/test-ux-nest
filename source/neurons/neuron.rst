@@ -1,3 +1,5 @@
+:orphan:
+
 .. _neuron:
 
 Neuron
@@ -8,3 +10,10 @@ Neuron
 
 A second title
 --------------
+
+
+.. toctree::
+   :hidden:
+   :glob:
+
+   *
