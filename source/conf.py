@@ -91,7 +91,7 @@ html_theme_options = {
     #     {"href": "index", "internal": True, "title": "NEST docs home"}
     #     ],
     # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 2,
+    'globaltoc_depth': 1,
     # If False, expand all TOC entries
     #'globaltoc_collapse': True,
     # If True, show hidden TOC entries
@@ -110,11 +110,11 @@ html_css_files = [
     'css/custom.css',
     'css/popup.css',
     'css/image-map.css',
-    'css/page-popup.css',
-    'css/overlay.css'
+   # 'css/page-popup.css',
+   # 'css/overlay.css'
 ]
 html_js_files = [
     'js/custom.js',
-    'js/image-map.js',
+    #'js/image-map.js',
     #'js/mermaid.js'
     ]

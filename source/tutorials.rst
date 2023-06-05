@@ -1,6 +1,13 @@
 Tutorials
 =========
 
+
+PyNEST tutorial explain here is where you should start if you dont know nest
+
+
+Test grid variants
+-------------------
+
 .. grid:: 1 2 2 2
    :outline:
 

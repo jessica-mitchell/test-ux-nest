@@ -12,7 +12,8 @@ Welcome to design_nest's documentation!
   .. grid-item::
 
     NEST is used in computational neuroscience to model and study behavior of large networks of neurons.
-    The models describe single neuron and synapse behavior and their connections.
+
+    The models describe single :ref:`neuron` and :ref:`synapse` behavior and their connections.
     Different mechanisms of plasticity can be used to investigate artificial learning
     and help to shed light on the fundamental principles of how the brain works.
 
@@ -45,9 +46,9 @@ Welcome to design_nest's documentation!
 
             .. figure:: _static/img/structuralplasticity.png
 
-              Title and Description
+              Showcase cool examples
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              Provide users with a glimpse of what nest can do
 
 
 .. grid:: 1 2 3 3
@@ -67,8 +68,9 @@ Welcome to design_nest's documentation!
 
 
      Our PyNEST tutorial will show you how to create your
-     first script and understand the basic functionality
-     of the NEST simulator. :ref:`tutorial-link <pynest_examples>`
+     first script with NEST simulator. :ref:`tutorial-link <tutorial>`
+
+     Learn how to use  neurons, synapses and devices
 
    .. grid-item-card:: Explore our models
      :class-item: sd-text-center sd-text-white sd-bg-info
@@ -76,16 +78,36 @@ Welcome to design_nest's documentation!
      NEST has extensive model catalog from . . .
      :ref:`Check out our model catalog <modelsmain>`
 
+.. grid:: 1 2 3 3
+
+   .. grid-item-card:: PyNEST API
+     :class-item: sd-text-center sd-text-white sd-bg-info
+
+     Find a function
+
+   .. grid-item-card:: Network models 
+     :class-item: sd-text-left sd-text-white sd-bg-primary
+
+     * Spatially structured networks ?
+     * Microcircuit
+     * Mulit area model
+
+   .. grid-item-card::  HPC
+     :class-item: sd-text-left sd-text-white sd-bg-success
+
+     * Run NEST on clusters and supercomputers
+
 Conceptual approach
 -------------------
 
 NEST builds networks from point based neurons using connections defined by synapse type ...
-..           <script src=
-          "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-          </script>
 
+This is an imagemap. It is possible to create an image map where the individual items link to other pages,
+We can also produce pop ups.
 
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+But it is very difficult to produce an effect on hover over a specific item in the image map.
+
+..  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 
 .. grid:: 1 1 1 1
 
@@ -94,22 +116,46 @@ NEST builds networks from point based neurons using connections defined by synap
 
       .. raw:: html
 
-          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
           <div class="container1">
+          <!-- background image -->
           <img id="idimg" src="_static/img/network-brain3.svg" class="map" usemap="#image-map">
 
 
           <map name="image-map" class="popup">
              <span class="popuptext" id="myPopup">
              <a href="neurons.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
-             </a
+             </a>
              <area alt="neuron-triangle" title="neuron-triangle" coords="351,146,291,93" shape="rect" onclick=
              "myFunction()">
-             <area target="_blank" alt="neuron-circle" title="neuron-circle" href="index.html" coords="453,311,30" shape="circle">
-             <area target="_blank" alt="stimulator-hexagon" title="stimulator-hexagon" href="index.html" coords="124,196,33" shape="circle">
-             <area target="_blank" alt="recorder-parallegram" title="recorder-parallegram" href="index.html" coords="502,374,578,410" shape="rect">
-             <area target="_blank" alt="neuron-square" title="neuron-square" href="index.html" coords="213,266,265,314" shape="rect">
-             <area target="_blank" alt="synapse-arrow" title="synapse-arrow" href="index.html" coords="361,141,328,154,363,229,417,293,442,275" shape="poly">
+             </span>
+             <span class="popuptext" id="myPopup">
+             <a href="neurons.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
+             </a>>
+             <area target="_blank" alt="neuron-circle" title="neuron-circle"  coords="453,311,30" shape="circle" onclick="myFunction()">
+             </span>
+             <span class="popuptext" id="myPopup">
+             <a href="devices.html"> <img src="_static/img/001-shuttle.svg" alt="stimulator graphic">
+             </a>
+             <area target="_blank" alt="stimulator-hexagon" title="stimulator-hexagon" coords="124,196,33" shape="circle" onclick="myFunction()">
+
+             </span>
+             <span class="popuptext" id="myPopup">
+             <a href="devices.html"> <img src="_static/img/layer4.png" alt="recorder graphic">
+             </a>>
+             <area target="_blank" alt="recorder-parallegram" title="recorder-parallegram"  coords="502,374,578,410" shape="rect" onclick="myFunction()">
+
+             </span>
+             <span class="popuptext" id="myPopup">
+             <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron graphic">
+             </a>
+             <area target="_blank" alt="neuron-square" title="neuron-square" coords="213,266,265,314" shape="rect" onclick="myFunction()">
+
+             </span>
+             <span class="popuptext" id="myPopup">
+             <a href="synapses_nest.html"> <img src="_static/img/synapse_illustration.svg" alt="synapse graphic">
+             </a>
+             <area alt="synapse-arrow" title="synapse-arrow" coords="361,141,328,154,363,229,417,293,442,275" shape="poly" onclick="myFunction()">
+             </span>
             </map>
           </div>
 
@@ -270,15 +316,15 @@ Here are tools that integrate with NEST  . . .
    examples
    pynest_api
    models
-   neurons/*
-   subdir1/glossary
-   contact
+   glossary
+   contribute <contact>
 
 .. toctree::
-   :caption: TECHNICAL
+   :caption: TECHNICAL DETAILS
    :hidden:
 
-   hpc
+   NEST on HPC <hpc>
+   nest_server
    nest_behavior
    cpp_docs
    architecture
@@ -286,17 +332,17 @@ Here are tools that integrate with NEST  . . .
    maintenance
 
 .. toctree::
-   :caption: RELATED
+   :caption: RELATED PROJECTS
    :hidden:
 
    nest-desktop <https://nest-desktop.readthedocs.io/en/latest/>
    nestml <https://nestml.readthedocs.io/en/latest/>
    nestgpu <https://nestgpu.readthedocs.io/en/latest/>
-   pynn
-   elephant
-   cosim
-   tvb
-   arbor
+   pynn <https://google.com>
+   elephant <https://google.com>
+   cosim <https://google.com>
+   tvb <https://google.com>
+   arbor <https://google.com>
 
 Indices and tables
 ==================

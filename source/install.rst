@@ -1,6 +1,66 @@
 Install
 =======
 
+install details here - on main page?
+
+
+
+Samples using theme colours
+---------------------------
+
+
+cards
+~~~~~
+
+
+.. grid:: 1 2 3 3
+
+   .. grid-item-card:: Install NEST
+     :class-item: sd-text-center sd-text-white sd-bg-info
+
+
+     .. code-block:: python
+
+         pip install nest-simulator
+
+     See more installation options here.
+
+   .. grid-item-card:: Learn NEST
+     :class-item: sd-text-center sd-text-white sd-bg-info
+
+
+     Our PyNEST tutorial will show you how to create your
+     first script with NEST simulator. :ref:`tutorial-link <tutorial>`
+
+     Learn how to use  neurons, synapses and devices
+
+   .. grid-item-card:: Explore our models
+     :class-item: sd-text-center sd-text-white sd-bg-info
+
+     NEST has extensive model catalog from . . .
+     :ref:`Check out our model catalog <modelsmain>`
+
+.. grid:: 1 2 3 3
+
+   .. grid-item-card:: PyNEST API
+     :class-item: sd-text-center sd-text-white sd-bg-success
+
+     Find a function
+
+   .. grid-item-card:: Network models 
+     :class-item: sd-text-left sd-text-white sd-bg-success
+
+     * Spatially structured networks ?
+     * Microcircuit
+     * Mulit area model
+
+   .. grid-item-card::  HPC
+     :class-item: sd-text-left sd-text-white sd-bg-success
+
+     * Run NEST on clusters and supercomputers
+
+
+
 .. _admon:
 
 Admonitions

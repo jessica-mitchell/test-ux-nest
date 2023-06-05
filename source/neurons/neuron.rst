@@ -1,8 +1,9 @@
+.. _neuron:
+
 Neuron
 ======
 
 
-.. _neuron:
 
 
 A second title

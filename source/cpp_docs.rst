@@ -2,6 +2,16 @@ CPP docs
 ========
 
 
+* CPP API
+
+* Doxygen build
+
+
+tool tip test
+--------------
+
+note that this uses a different tooltip extension not developed by us. It allows preview of a refernced link. But only depth of 1 (you cannot get a preview of alink inside a preview).
+It only works on read the docs. The local build only shows loading ... in the preview window.
 
 .. grid:: 1 1 1 1
 

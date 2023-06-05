@@ -2,6 +2,14 @@ Contact
 =======
 
 
+* Mailing list
+
+* nest@nest-simulator.org
+
+* PRs / issues
+
+* Developer / User biweekly meeting
+
 subsection 1
 ------------
 

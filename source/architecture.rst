@@ -3,6 +3,9 @@
 Architecture
 ============
 
+Big picture docs
+
+How NEST is designed
 
 .. raw:: html
 
