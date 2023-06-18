@@ -18,11 +18,14 @@
     --nest-orange: #ff6633;
     --nest-blue: #0E6A93;
     --nest-dkblue: #072f42;
-    --nest-brown: #6a2916; /*formally green */
+    --nest-brown: #412D23; /*formally green */
     --sd-color-primary: var(--nest-orange);
+    --sd-color-secondary: var(--nest-blue);
     --sd-color-primary-highlight: #e05a2d;
+    --sd-color-warning: var(--nest-dkblue);
     --sd-color-info: var(--nest-blue);
     --sd-color-success: var(--nest-brown);
+    --sd-color-dark: var(--nest-dkblue);
     --sd-color-card-border-hover: var(--nest-blue);
     --sd-color-tabs-label-active: var(--nest-orange);
     --sd-color-tabs-label-hover: var(--nest-brown);
@@ -50,6 +53,7 @@ h1, h2, h3, h4, h5, h6{
 	margin:.45em 0;
 	padding:0;*/
 }
+
 
 /* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 *{	box-sizing:border-box;

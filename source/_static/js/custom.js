@@ -1,50 +1,60 @@
-// When the user clicks on <div>, open the popup
-//function myFunction() {
-//  var popup = document.getElementById("myPopup");
-//  popup.classList.toggle("show");
-//}
-// https://stackoverflow.com/questions/7312553/change-image-source-with-javascript
-// chatgpt
-//
-//function showPopup(popupId) {
-//  var popup = document.getElementById(popupId);
-//  popup.style.visibility = "visible";
-//}
-//
-//// Close the popups when clicking outside
-//window.onclick = function(event) {
-//  if (!event.target.matches('.popuptext') && !event.target.matches('area')) {
-//    var popups = document.getElementsByClassName("popuptext");
-//    for (var i = 0; i < popups.length; i++) {
-//      var popup = popups[i];
-//      popup.style.visibility = "hidden";
-//    }
-//  }
-//};
+document.addEventListener("DOMContentLoaded", function() {
+  const svgElements = document.querySelectorAll("#mySvg .clickable");
+  const popups = document.querySelectorAll(".popuptext");
 
+  svgElements.forEach(function(svgElement) {
+    svgElement.addEventListener("click", function() {
+      const svgElementId = svgElement.getAttribute("id");
+      const popupId = getMatchingPopupId(svgElementId);
 
+      if (popupId) {
+        const popup = document.getElementById(popupId);
+        togglePopup(popup);
+      }
+    });
+  });
 
-var currentPopup = null;
+  document.addEventListener("click", function(event) {
+    if (!event.target.closest("#mySvg")) {
+      popups.forEach(function(popup) {
+        hidePopup(popup);
+      });
+    }
+  });
 
-function showPopup(popupId) {
-  hideCurrentPopup();
-
-  var popup = document.getElementById(popupId);
-  popup.style.visibility = "visible";
-  currentPopup = popup;
-}
-
-function hideCurrentPopup() {
-  if (currentPopup) {
-    currentPopup.style.visibility = "hidden";
-    currentPopup = null;
+  function togglePopup(popup) {
+    if (popup.classList.contains("visible")) {
+      hidePopup(popup);
+    } else {
+      hideAllPopups();
+      showPopup(popup);
+    }
   }
-}
 
-// Close the popups when clicking outside
-window.onclick = function(event) {
-  if (!event.target.matches('.popuptext') && !event.target.matches('area')) {
-    hideCurrentPopup();
+  function hidePopup(popup) {
+    popup.classList.remove("visible");
   }
-};
+
+  function showPopup(popup) {
+    popup.classList.add("visible");
+  }
+
+  function hideAllPopups() {
+    popups.forEach(function(popup) {
+      hidePopup(popup);
+    });
+  }
+
+  function getMatchingPopupId(svgElementId) {
+    const idWord = svgElementId.replace(/[0-9]+$/, "");
+    const matchingPopup = Array.from(popups).find(function(popup) {
+      return popup.id === idWord;
+    });
+
+    console.log("ID Word:", idWord);
+    console.log("Matching Popup:", matchingPopup);
+
+    return matchingPopup ? matchingPopup.id : null;
+  }
+});
 
