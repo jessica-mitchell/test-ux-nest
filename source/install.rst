@@ -60,6 +60,25 @@ cards
      * Run NEST on clusters and supercomputers
 
 
+.. grid:: 1 2 3 3
+
+   .. grid-item-card:: PyNEST API
+     :class-item: sd-text-center sd-text-white sd-bg-warning
+
+     Find a function
+
+   .. grid-item-card:: Network models 
+     :class-item: sd-text-left sd-text-white sd-bg-warning
+
+     * Spatially structured networks ?
+     * Microcircuit
+     * Mulit area model
+
+   .. grid-item-card::  HPC
+     :class-item: sd-text-left sd-text-white sd-bg-warning
+
+     * Run NEST on clusters and supercomputers
+
 
 .. _admon:
 
@@ -86,6 +105,7 @@ Admonitions
 
 .. important:: Here is something important
 
+.. danger:: Here is the most dangerous thing
 
 .. code-block:: html
 
