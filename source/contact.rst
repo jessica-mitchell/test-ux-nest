@@ -1,6 +1,6 @@
 Contact
 =======
-
+..   <object data="_static/img/network-brain-test_opt.svg" type="image/svg+xml"></object>
 
 * Mailing list
 
@@ -12,7 +12,6 @@ Contact
 
 subsection 1
 ------------
-
 
 
 subsection 2
