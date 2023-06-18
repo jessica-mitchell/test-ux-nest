@@ -35,6 +35,7 @@ extensions = [
         'hoverxref.extension',
         'sphinxcontrib.mermaid',
         "sphinx_carousel.carousel",
+        "sphinx.ext.intersphinx",
         'sphinx_copybutton'
 ]
 
@@ -61,6 +62,8 @@ templates_path = ['_templates']
 exclude_patterns = []
 
 
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None),
+        'dev': ('https://test-ux-nest.readthedocs.io/projects/dev-docs/en/latest/', None)}
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -102,6 +105,7 @@ html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
 }
 
+html_logo = '_static/img/nest.svg'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
