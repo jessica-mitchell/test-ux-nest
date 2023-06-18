@@ -1,38 +1,25 @@
-
-/* chat gpt */
-
-
-
-
 .popuptext {
-  visibility: hidden;
-  position: absolute;
+  display: none;
+  position: fixed;
   z-index: 1;
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   width: 200px;
-  right: 0%;
-  bottom: 50%;
+  right: 25%;
+  bottom: 15%;
   margin-right: 10px;
 }
-
-.map {
+.popuptext.visible {
+  display: block;
+}
+/* I think this one can be removed (check)  TODO */
+.path {
   position: relative;
 }
 
-.map:hover .popuptext {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-.map:hover #idimg {
-  opacity: 0.7;
-}
-
-
+/*
 .popup {
   cursor: pointer;
   display: flex;
@@ -40,6 +27,7 @@
   justify-content: center;
 }
 
+*/
 
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
@@ -51,40 +39,4 @@
   to {opacity:1 ;}
 }
 
-
-/* The actual popup (appears on top) */
-/*
-.popup .popuptext {
-  visibility: hidden;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 600px;
-  right: 0
-}
-*/
-}
-/*.container1 {
- position: relative;
- display:flex;
- justify-content:center;
-}
-*/
-
-
-/*
-.popup .show {
-  visibility: visible;
-}
-*/
-
-/* end chatgpt */
-
-/*
-/* Popup container */
-
-
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-/* Add animation (fade in the popup) */
 
