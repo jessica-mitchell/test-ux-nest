@@ -130,11 +130,11 @@ use the "preserve the following ids", as it only took the first element in the l
       .. raw:: html
 
          <div class="popuptext" id="neuron">
-         <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron triangle graphic">
+         <a href="neurons_nest.html"> <img src="_static/img/neuron_text.svg" alt="neuron triangle graphic">
          </a>
          </div>
          <div class="popuptext" id="synapse">
-         <a href="neurons_nest.html"> <img src="_static/img/synapse_illustration.svg" alt="neuron circle graphic">
+         <a href="neurons_nest.html"> <img src="_static/img/synapse_text.svg" alt="neuron circle graphic">
          </a>
          </div>
          <div class="popuptext" id="device">
