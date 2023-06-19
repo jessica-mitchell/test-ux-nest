@@ -115,6 +115,7 @@ ids that end with numbers, so in saving an optmized svg, I had to deselect "remo
 use the "preserve the following ids", as it only took the first element in the list.
 
 .. grid::
+   :outline:
 
    .. grid-item::
       :columns: 8
@@ -125,7 +126,6 @@ use the "preserve the following ids", as it only took the first element in the l
    .. grid-item::
       :columns: 4
       :child-align: center
-      :child-direction: row
 
       .. raw:: html
 
