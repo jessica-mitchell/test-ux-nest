@@ -85,7 +85,7 @@ Welcome to design_nest's documentation!
 
      Find a function
 
-   .. grid-item-card:: Network models 
+   .. grid-item-card:: Network models
      :class-item: sd-text-left sd-text-white sd-bg-primary
 
      * Spatially structured networks ?
@@ -102,14 +102,50 @@ Conceptual approach
 
 NEST builds networks from point based neurons using connections defined by synapse type ...
 
-This is an imagemap. It is possible to create an image map where the individual items link to other pages,
-We can also produce pop ups.
+This is using the grid system to  help position the popups relative to the image, (TODO- position stil needs tweaking)
+rather than trying to use pure css.
+The mouseover ("monmouseover" and "onmouseout") is stored in the svg file direclty, where as the click event is enabled from custom javascript.
+The popups are embeded in raw html in the rst file. It might be possible to use sd cards instead. Haven't tessted it yet.
+We need to have the class and id preserved in the popups for the javascript to find the correct popup.
+The svg has a few important attributes that need to be preserved for this to work as well:
+svg id = "mySvg" (the name needs to match javascript file)
+Each element that is clickable has a class="clickable" and a unique id that associates it with the correct popup.
+So the neuorns have id="neuron[x]" (with x being a value 1 or more). Note however that inkscape likes to remove
+ids that end with numbers, so in saving an optmized svg, I had to deselect "remove unused ids". I never managed to
+use the "preserve the following ids", as it only took the first element in the list.
 
-But it is very difficult to produce an effect on hover over a specific item in the image map.
+.. grid::
+
+   .. grid-item::
+      :columns: 8
+
+      .. raw:: html
+         :file: _static/img/network-brain-all.svg
+
+   .. grid-item::
+      :columns: 4
+      :child-align: center
+      :child-direction: row
+
+      .. raw:: html
+
+         <div class="popuptext" id="neuron">
+         <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron triangle graphic">
+         </a>
+         </div>
+         <div class="popuptext" id="synapse">
+         <a href="neurons_nest.html"> <img src="_static/img/synapse_illustration.svg" alt="neuron circle graphic">
+         </a>
+         </div>
+         <div class="popuptext" id="device">
+         <a href="neurons_nest.html"> <img src="_static/img/001-shuttle.svg" alt="neuron circle graphic">
+         </a>
+         </div>
+
 
 The design of this brain is taken directly from NEST desktop, the neuron and synapse
-popups are taken from nestml, this gives us some consistency between projects. 
-The colours are meant to fit the new colour theme. The brain background is from Angela.
+popups are taken from nestml, this gives us some consistency between projects.
+The colours are meant to fit the new colour theme. The brain background is from Angela Fischer.
 
 ..  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
 
@@ -120,25 +156,7 @@ Example script
 
 Here is an example of how a script is constructed . . .
 
-.. this works - TODO add text into image
-
-.. raw:: html
-   :file: _static/img/network-brain-test_opt.svg
-
-.. raw:: html
-
-   <div class="popuptext" id="neuron">
-   <a href="neurons_nest.html"> <img src="_static/img/neurongraphic.png" alt="neuron triangle graphic">
-   </a>
-   </div>
-   <div class="popuptext" id="synapse">
-   <a href="neurons_nest.html"> <img src="_static/img/synapse_illustration.svg" alt="neuron circle graphic">
-   </a>
-   </div>
-   <div class="popuptext" id="device">
-   <a href="neurons_nest.html"> <img src="_static/img/001-shuttle.svg" alt="neuron circle graphic">
-   </a>
-   </div>
+this works - TODO add text into image
 
 
 .. seealso::
